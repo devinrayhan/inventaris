@@ -1,0 +1,77 @@
+=== IMPORT DEBUG LOG - 2025-12-28 06:56:41 ===
+File: Template_Data_Transaksi (1).csv
+Extension: csv
+
+Raw Headers: Array
+(
+    [0] => No
+    [1] => Jenis
+    [2] => Nama Barang
+    [3] => Jumlah
+    [4] => Satuan
+    [5] => Harga
+    [6] => Tanggal
+    [7] => Bagian
+    [8] => Penanggung Jawab
+)
+
+Clean Headers: Array
+(
+    [0] => No
+    [1] => Jenis
+    [2] => Nama Barang
+    [3] => Jumlah
+    [4] => Satuan
+    [5] => Harga
+    [6] => Tanggal
+    [7] => Bagian
+    [8] => Penanggung Jawab
+)
+
+isBarang: NO
+isTransaksi: YES
+
+Row 2: Array
+(
+    [0] => 1
+    [1] => MASUK
+    [2] => Laptop HP
+    [3] => 5
+    [4] => unit
+    [5] => 5000000
+    [6] => 15/12/2025
+    [7] => IT
+    [8] => Admin
+)
+
+Row 2: hasNoColumn = YES, first data = '1'
+Row 2: jenis='MASUK', namaBarang='Laptop HP', jumlah=5, harga=5000000, tanggal='15/12/2025'
+Row 2: tanggalParsed = 2025-12-15
+Row 2: SUCCESS - Inserted
+Row 3: Array
+(
+    [0] => 2
+    [1] => KELUAR
+    [2] => Mouse Wireless
+    [3] => 10
+    [4] => unit
+    [5] => 50000
+    [6] => 15/12/2025
+    [7] => Keuangan
+    [8] => Budi
+)
+
+Row 3: hasNoColumn = YES, first data = '2'
+Row 3: jenis='KELUAR', namaBarang='Mouse Wireless', jumlah=10, harga=50000, tanggal='15/12/2025'
+Row 3: tanggalParsed = 2025-12-15
+Row 3: SUCCESS - Inserted
+
+Final Results:
+successCount = 2
+errorCount = 0
+Errors: Array
+(
+)
+
+
+=== END DEBUG LOG ===

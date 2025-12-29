@@ -1,0 +1,62 @@
+====================================================
+CARA INSTALL DATABASE UNTUK SISTEM INVENTARIS
+====================================================
+
+METODE 1: Lewat phpMyAdmin (Paling Mudah)
+------------------------------------------
+1. Buka http://localhost/phpmyadmin
+2. Klik database "inventaris" di sebelah kiri
+3. Klik tab "SQL" di atas
+4. Buka file database.sql dengan notepad
+5. Copy semua isi file database.sql
+6. Paste ke kolom SQL di phpMyAdmin
+7. Klik "Go" atau "Kirim"
+8. Tunggu sampai selesai
+9. Database siap digunakan!
+
+METODE 2: Lewat Command Line
+---------------------------
+1. Buka Command Prompt atau PowerShell
+2. Masuk ke folder MySQL bin:
+   cd C:\xampp\mysql\bin
+3. Jalankan command:
+   mysql -u root -p inventaris < "d:\xamp\htdocs\Inventaris\database.sql"
+4. Tekan Enter (password kosong)
+5. Database siap digunakan!
+
+VERIFIKASI DATABASE
+-------------------
+Setelah import, cek di phpMyAdmin:
+- Database "inventaris" harus punya 3 tabel:
+  * barang (untuk data stok)
+  * transaksi (untuk riwayat transaksi)
+  * users (untuk login)
+
+LOGIN DEFAULT
+-------------
+Username: admin
+Password: admin
+
+CATATAN PENTING
+---------------
+- Pastikan XAMPP MySQL sudah running
+- Database "inventaris" sudah dibuat sebelumnya
+- File config/database.php sudah ada
+- Setelah database terinstall, sistem akan otomatis menggunakan MySQL
+  (tidak lagi pakai file data_inventaris.json)
+
+TROUBLESHOOTING
+---------------
+Jika error "Connection failed":
+1. Cek apakah MySQL di XAMPP sudah running
+2. Cek file config/database.php, pastikan:
+   - Host: localhost atau 127.0.0.1
+   - Database: inventaris
+   - Username: root
+   - Password: (kosong)
+
+Jika error "Table already exists":
+- Hapus semua tabel di database "inventaris" dulu
+- Lalu import ulang database.sql
+
+====================================================

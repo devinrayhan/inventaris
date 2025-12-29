@@ -1,0 +1,73 @@
+{
+    "stok": {
+        "Mouse": 11,
+        "Sapu Ijuk": 20,
+        "Sapu Lidi": 30,
+        "Keyboard": 10
+    },
+    "riwayat": [
+        {
+            "jenis": "MASUK",
+            "nama": "Mouse",
+            "jumlah": 11,
+            "harga": 20000,
+            "tanggal": "2025-10-13"
+        },
+        {
+            "jenis": "MASUK",
+            "nama": "Sapu Ijuk",
+            "jumlah": 30,
+            "harga": 35000,
+            "tanggal": "2025-11-30"
+        },
+        {
+            "jenis": "MASUK",
+            "nama": "Sapu Lidi",
+            "jumlah": 30,
+            "harga": 20000,
+            "tanggal": "2025-11-30"
+        },
+        {
+            "jenis": "KELUAR",
+            "nama": "Sapu Ijuk",
+            "jumlah": 10,
+            "harga": 35000,
+            "tanggal": "2025-12-05"
+        },
+        {
+            "jenis": "KELUAR",
+            "nama": "Mouse",
+            "jumlah": 5,
+            "harga": 20000,
+            "tanggal": "2025-12-07"
+        },
+        {
+            "jenis": "KELUAR",
+            "nama": "Mouse",
+            "jumlah": 5,
+            "harga": 20000,
+            "tanggal": "2025-12-05"
+        },
+        {
+            "jenis": "MASUK",
+            "nama": "Mouse",
+            "jumlah": 5,
+            "harga": 35000,
+            "tanggal": "2025-12-07"
+        },
+        {
+            "jenis": "MASUK",
+            "nama": "Mouse",
+            "jumlah": 5,
+            "harga": 35000,
+            "tanggal": "2025-12-07"
+        },
+        {
+            "jenis": "MASUK",
+            "nama": "Keyboard",
+            "jumlah": 10,
+            "harga": 199000,
+            "tanggal": "2025-12-07"
+        }
+    ]
+}
